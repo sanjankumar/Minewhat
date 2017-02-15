@@ -1,0 +1,69 @@
+body{
+	font-family:arial;
+	margin:0px;
+}
+
+nav{
+	height:75px;
+	background:#cccccc;	
+}
+
+nav p{
+	text-transform: uppercase;
+	font-size:26px;
+	padding:22px;
+	color:#625f5f;
+}
+
+.block-1, .block-2 {
+    box-shadow: 0 0px 1px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	background-color: #f3f3f3;
+	color:#606060;
+    width: 47%;
+	display:inline-block;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.mainblock {
+	box-shadow: 0 0 1px 2px rgba(0,0,0,0.2);
+    color: #515050;
+	width:485px;
+	margin:8%;
+	position: absolute;
+	left: 24%;
+	animation-duration: 0.8s;
+	animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+	from { left: 120%; }
+	to { left: 24%; }
+}
+
+.closebtn {
+    margin: 15px;
+    color: gray;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.top-text{
+	text-align:center;
+	font-size:22px;
+}
+
+.btm1{
+	font-size:15px;
+}
+
+.closebtn:hover {
+    color: black;
+}
